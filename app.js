@@ -20,7 +20,8 @@ window.addEventListener('load',()=>{
         })
         .then(response =>{
             console.log(response);
-            temperatureDegree.textContent = Math.floor( response.data[0].temp);
+            temperatureDegree.innerHTML = Math.floor( response.data[0].temp)+"&deg;";
+            
             temperatureDescription.textContent = response.data[0].weather.description;
             locationTimezone.textContent = response.data[0].city_name;
             icon.src = `https://www.weatherbit.io/static/img/icons/${response.data[0].weather.icon}.png`;
