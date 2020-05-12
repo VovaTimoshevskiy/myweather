@@ -1,3 +1,4 @@
 # myweather
 
-https://wonderful-mcnulty-78310e.netlify.app/
+https://relaxed-carson-476307.netlify.app/
+
